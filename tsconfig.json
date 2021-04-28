@@ -1,0 +1,50 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+
+        "target": "es6",
+        "jsx": "react",
+        "module": "CommonJS",
+        "moduleResolution": "node",
+
+        "strict": true,
+        "noImplicitAny": false,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictPropertyInitialization": true,
+        "strictBindCallApply": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "useDefineForClassFields": false,
+        "alwaysStrict": true,
+        "allowUnreachableCode": true,
+        "allowUnusedLabels": false,
+        "downlevelIteration": false,
+        "noEmitHelpers": false,
+        "noEmit": false,
+        "noLib": false,
+        "noStrictGenericChecks": false,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "esModuleInterop": true,
+        "preserveConstEnums": true,
+        "removeComments": false,
+        "skipLibCheck": true,
+        "checkJs": false,
+        "allowJs": true,
+        "declaration": true,
+        "experimentalDecorators": false,
+        "emitDecoratorMetadata": false
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "./db",
+        "./db-dump",
+        "./site",
+        "./dist",
+        "./tsc-check",
+        "node_modules"
+    ]
+}
